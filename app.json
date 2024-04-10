@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "test-temp",
-    "slug": "test-temp",
+    "slug": "a-new-app-4",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,11 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jonsamptest4104.a-new-app-4"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +24,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ba48e63-ba8d-4feb-a35a-680f641eb46a"
+      }
+    },
+    "owner": "jonsamptest4104",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://staging-u.expo.dev/0ba48e63-ba8d-4feb-a35a-680f641eb46a"
     }
   }
 }
